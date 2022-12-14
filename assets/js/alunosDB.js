@@ -7,37 +7,28 @@ function mostrarAluno(){
     }); 
 }
 
-
-function colegioDB(colcodigo){
-    let body = {
-        colcodigo: colcodigo,
-    };
-    
-    callApi("POST", "nomeColegio", body, function(aAlunos) {
-        return aAlunos.colnome;
-    }); 
-} 
-
 function addTabela(aAlunos){
-    console.log(aAlunos);
-    aAlunos.map((oAlunos)=>{
+    aAlunos.map((oAluno)=>{
+        let codigo = oAluno.codigo;
+        let nome = oAluno.nome;
+        let colegio = oAluno.colegio;
+        let matricula = oAluno.matricula;
+        let usuario = oAluno.usuario;
+        let senha = oAluno.senha;
+        let data = oAluno.data;
+        let hora = oAluno.hora;
 
-
-        let codigo = oAlunos.alucodigo;
-
-        let deletar = btnDeleteAluno(codigo);
-
+        let deletar = btnDeleteAluno(codigo)
         let tr = `
             <tr> 
                 <td>`+codigo+`</td>
                 <td>`+colegio+`</td>
-                <td>`+colegio+`</td>
-                <td>`+codigo+`</td>
-                <td>`+codigo+`</td>
-                <td>`+codigo+`</td>
-                <td>`+codigo+`</td>
-                <td>`+codigo+`</td>
-                <td>`+codigo+`</td>
+                <td>`+nome+`</td>
+                <td>`+matricula+`</td>
+                <td>`+usuario+`</td>
+                <td>`+senha+`</td>
+                <td>`+hora+`</td>
+                <td>`+data+`</td>
                 <td>`+deletar+`<td>
                 <td>`+deletar+`<td>
             <tr>
@@ -57,5 +48,5 @@ function btnDeleteAluno(codigo){
 
 
 function deleteAluno(codigo){
-    alert(codigo);
+
 }

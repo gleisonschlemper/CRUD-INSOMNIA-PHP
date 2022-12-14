@@ -45,7 +45,7 @@ class Routes {
 
             $app->get('/todosAluno', ControllerApiAluno::class . ':getAluno');
 
-            $app->post('/nomeColegio', ControllerApiColegio::class . ':getNomeColegio');
+            $app->get('/todosColegio', ControllerApiColegio::class . ':getTodosColegio');
 
 
         })->add($this->getMiddlewares());
