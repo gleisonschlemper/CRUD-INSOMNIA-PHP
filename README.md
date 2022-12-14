@@ -2,7 +2,8 @@
 
 # acessar arquivos.json
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=cantinaWeb&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgleisonschlemper%2FCRUD-INSOMNIA-PHP%2Fmaster%2FcolegioDB.json%3Ftoken%3DGHSAT0AAAAAAB2R7JTQSNTGESZHTEFIMSBEY42KW2Q)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=cantinaWeb&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgleisonschlemper%2FCRUD-INSOMNIA-PHP%2Fmaster%2FcolegioDB.json%3Ftoken%3DGHSAT0AAAAAAB2R7JTQ5IDVFBZCZM5TOQV4Y42LE2Q)
+
 
 # Site com opções free
 https://free-for.dev
